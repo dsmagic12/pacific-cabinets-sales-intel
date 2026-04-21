@@ -1,0 +1,40 @@
+import type { Rep } from "@/types";
+
+export const mockReps: Rep[] = [
+  {
+    id: "rep-001",
+    name: "Jordan Alvarez",
+    email: "jordan.alvarez@frontierdoorandcabinet.com",
+    territory: "Pacific Northwest",
+    region: "West",
+    managerName: "Diana Cho",
+    specialties: ["multifamily", "custom builders", "high-end remodel"],
+    customerIds: ["cust-001", "cust-002", "cust-003"],
+    ytdRevenue: 612000,
+    ytdQuota: 780000,
+  },
+  {
+    id: "rep-002",
+    name: "Priya Nair",
+    email: "priya.nair@frontierdoorandcabinet.com",
+    territory: "Pacific Northwest",
+    region: "West",
+    managerName: "Diana Cho",
+    specialties: ["architects", "dealers", "commercial"],
+    customerIds: ["cust-004", "cust-005"],
+    ytdRevenue: 198000,
+    ytdQuota: 300000,
+  },
+  {
+    id: "rep-003",
+    name: "Marcus Webb",
+    email: "marcus.webb@frontierdoorandcabinet.com",
+    territory: "Inland Northwest",
+    region: "West",
+    managerName: "Diana Cho",
+    specialties: ["production builders", "multi-unit"],
+    customerIds: [],
+    ytdRevenue: 145000,
+    ytdQuota: 250000,
+  },
+];
