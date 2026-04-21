@@ -1,9 +1,15 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
+Prerequiste: node 20.20.2
 
-First, run the development server:
-
+1. Copy the repo to a folder, then open it. 
+2. Then, run:
+```bash
+npm install --verbose
+```
+3. Edit `.env.local` to specify your anthropic API key.
+4. Then, run the development server:
 ```bash
 npm run dev
 # or
