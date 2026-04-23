@@ -133,7 +133,7 @@ export default function CatalogPage() {
           Product Catalog
         </h1>
         <p className="text-muted mt-1">
-          {mockProducts.length} products · Frontier Door &amp; Cabinet
+          {mockProducts.length} products · pacific-cabinets Door &amp; Cabinet
         </p>
       </div>
 

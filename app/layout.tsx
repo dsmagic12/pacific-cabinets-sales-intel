@@ -3,8 +3,8 @@ import "./globals.css";
 import AppShell from "@/components/layout/AppShell";
 
 export const metadata: Metadata = {
-  title: "Frontier Sales Intelligence",
-  description: "AI-powered sales intelligence for Frontier Door & Cabinet",
+  title: "pacific-cabinets Sales Intelligence",
+  description: "AI-powered sales intelligence for pacific-cabinets Door & Cabinet",
 };
 
 export default function RootLayout({

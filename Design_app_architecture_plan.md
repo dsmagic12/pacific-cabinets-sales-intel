@@ -1,4 +1,4 @@
-# Frontier Door & Cabinet — Sales Intelligence Tool: Implementation Plan
+# pacific-cabinets Door & Cabinet — Sales Intelligence Tool: Implementation Plan
 ## 1. Tech Stack & Rationale
 ### Core Framework: Next.js 14+ (App Router)
 Next.js App Router is the right choice here for several reasons. API keys for the Anthropic SDK never touch the client bundle because all LLM calls happen in Route Handlers (`app/api/...`). Server Components allow data fetching without waterfalls. The file-based routing maps cleanly to the application's navigation model. Streaming responses from Claude are handled natively via the Web Streams API that Next.js Route Handlers support.
@@ -361,7 +361,7 @@ async function streamResponse(url: string, payload: object) {
 ---
 ## 5. File & Folder Structure
 ```
-frontier-sales-intel/
+pacific-cabinets-sales-intel/
 ├── app/
 │   ├── layout.tsx                    # Root layout with AppShell
 │   ├── page.tsx                      # Dashboard
@@ -618,7 +618,7 @@ The most important page. Split layout:
 ### Brief Generation — Full Detail
 **System Prompt (`lib/ai/prompts.ts`):**
 ```
-You are an expert sales strategist for Frontier Door & Cabinet, a manufacturer 
+You are an expert sales strategist for pacific-cabinets Door & Cabinet, a manufacturer 
 of interior finish materials including doors, cabinets, and hardware. You help 
 sales representatives prepare for customer interactions by synthesizing order 
 history, project data, and relationship context into actionable briefs.
@@ -685,7 +685,7 @@ Return format: Ask for a JSON array of insight objects (using tool use for relia
 The chat system prompt is dynamically constructed per request to include current page context:
 ```typescript
 function buildChatSystemPrompt(context: ChatContext): string {
-  return `You are a sales intelligence assistant for Frontier Door & Cabinet. 
+  return `You are a sales intelligence assistant for pacific-cabinets Door & Cabinet. 
 You are currently helping a rep with ${context.pageType === 'customer' 
   ? `customer ${context.customerName}` 
   : 'general questions'}.

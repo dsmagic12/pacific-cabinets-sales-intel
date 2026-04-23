@@ -4,7 +4,7 @@ export const mockReps: Rep[] = [
   {
     id: "rep-001",
     name: "Jordan Alvarez",
-    email: "jordan.alvarez@frontierdoorandcabinet.com",
+    email: "jordan.alvarez@pacific-cabinetsdoorandcabinet.com",
     territory: "Pacific Northwest",
     region: "West",
     managerName: "Diana Cho",
@@ -16,7 +16,7 @@ export const mockReps: Rep[] = [
   {
     id: "rep-002",
     name: "Priya Nair",
-    email: "priya.nair@frontierdoorandcabinet.com",
+    email: "priya.nair@pacific-cabinetsdoorandcabinet.com",
     territory: "Pacific Northwest",
     region: "West",
     managerName: "Diana Cho",
@@ -28,7 +28,7 @@ export const mockReps: Rep[] = [
   {
     id: "rep-003",
     name: "Marcus Webb",
-    email: "marcus.webb@frontierdoorandcabinet.com",
+    email: "marcus.webb@pacific-cabinetsdoorandcabinet.com",
     territory: "Inland Northwest",
     region: "West",
     managerName: "Diana Cho",

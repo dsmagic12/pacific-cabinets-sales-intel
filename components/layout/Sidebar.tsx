@@ -41,7 +41,7 @@ export default function Sidebar() {
           <DoorOpen className="w-5 h-5 text-white" />
         </div>
         <div>
-          <div className="text-white font-bold text-sm leading-tight">Frontier</div>
+          <div className="text-white font-bold text-sm leading-tight">pacific-cabinets</div>
           <div className="text-amber text-xs leading-tight">Sales Intelligence</div>
         </div>
       </div>
